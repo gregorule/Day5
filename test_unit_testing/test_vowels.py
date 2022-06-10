@@ -1,5 +1,4 @@
 from unit_testing import vowels
 
-def vowels():
-    assert vowels.vowels(vowel) == 2
-    
+def test_vowels():
+    assert vowels.vowels("vowel") == 2
